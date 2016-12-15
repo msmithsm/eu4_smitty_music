@@ -1,0 +1,11 @@
+music = {
+	name = the_starkiller
+	file = the_starkiller.ogg
+}
+
+music = {
+	name = march_of_the_resistance
+	file = march_of_the_resistance.ogg
+}
+
+

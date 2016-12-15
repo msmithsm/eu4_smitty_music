@@ -1,0 +1,50 @@
+# Smitty Music
+
+song = {
+	name = "march_of_the_resistance"
+	
+	chance = {	 
+		modifier = {
+			factor = 10
+			AND = {
+				is_at_war
+				is_in_war = {
+					OR = { 
+						defender_leader = ROOT
+						defenders = ROOT
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				is_at_war = yes
+			}
+		}
+	}
+}
+
+song = {
+	name = "the_starkiller" 
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				is_at_war = yes
+				
+	}
+}
+
+
+
+
